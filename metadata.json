@@ -1,0 +1,8 @@
+{
+  "name": "FocusForge AI",
+  "description": "An AI Productivity Companion that helps students avoid missed deadlines, optimize their focus times, and visualize personal growth through gamified character evolution.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,14 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /workspaces/{workspaceId} {
+      allow read, write: if true; // Insecure for dev
+    }
+    match /tasks/{taskId} {
+      allow read, write: if true;
+    }
+    match /habits/{habitId} {
+      allow read, write: if true;
+    }
+  }
+}
