@@ -74,6 +74,19 @@ graph TD
 
 <br/>
 
+## ⚖️ Why FocusForge?
+
+| ❌ Without FocusForge | ✅ With FocusForge |
+|---|---|
+| You mark a task done... or forget to. The app has no idea which. | Before judging you, it asks: *"Did this really happen?"* |
+| Miss your planned start time, and the rest of your day just sits there, wrong. | One missed block triggers **Cascade Recovery** — your whole day reflows automatically. |
+| Red alerts everywhere, with no real plan to fix anything. | **Recovery Plan** tries to save the deadline first. Only suggests an extension if the math genuinely doesn't work. |
+| Streaks break because you forgot to check a box — not because you actually failed. | **Forgiveness Window** protects your streak. Honesty matters more than perfect logging. |
+| Generic countdowns that don't know how you actually work. | **Risk Score** factors in *your* personal historical pace — not a one-size-fits-all timer. |
+| Team leaderboards rank you by how much you did. | **Reliability Score** ranks you by how well your word matched your output. |
+
+<br/>
+
 ## 🎬 See It In Action
 
 <div align="center">

@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 import { Button } from "../components/ui/button";
 import { PublicThemeToggle } from "../components/PublicThemeToggle";
-import { ArrowRight, Bot, Shield, Trophy, Zap, ChevronRight, CheckCircle2, CheckSquare, Swords, ShieldAlert, Activity, Crosshair, Users, BarChart2, Calendar, Target, Github } from "lucide-react";
+import { ArrowRight, Bot, Shield, Trophy, Zap, ChevronRight, CheckCircle2, CheckSquare, Swords, ShieldAlert, Activity, Crosshair, Users, BarChart2, Calendar, Target, Github, Check, X } from "lucide-react";
 
 export default function Landing() {
   return (
@@ -173,6 +173,150 @@ export default function Landing() {
                title="Evolve Your Character" 
                desc="Earn XP to level up your companion from Novice to Ascended. Unlock new armor sets, auras, and achievements."
              />
+          </div>
+        </div>
+
+        {/* Why FocusForge? Section */}
+        <div className="max-w-6xl mx-auto mt-32 py-16 border-t border-[var(--border-subtle)]">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-display font-bold mb-4">Why FocusForge?</h2>
+            <p className="text-[var(--text-muted)] text-lg max-w-2xl mx-auto">
+              Every other app tracks whether you obeyed it. We track whether your life actually moved forward.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-x-12 md:gap-y-6">
+            {/* Desktop Headers */}
+            <div className="hidden md:block border-b border-[var(--border-subtle)] pb-4">
+              <h3 className="text-xl font-bold text-[var(--text-muted)] uppercase tracking-wider">
+                Without FocusForge
+              </h3>
+            </div>
+            <div className="hidden md:block border-b border-[var(--border-subtle)] pb-4">
+              <h3 className="text-xl font-bold text-[var(--accent-primary)] uppercase tracking-wider">
+                With FocusForge
+              </h3>
+            </div>
+
+            {/* Row 1 */}
+            <div className="p-4 rounded-xl bg-red-500/5 border border-red-500/10 md:bg-transparent md:border-none md:p-0 flex items-start gap-3">
+              <X className="text-red-500 shrink-0 mt-1" size={18} />
+              <div className="space-y-1">
+                <span className="block md:hidden text-xs font-bold uppercase tracking-wider text-[var(--text-muted)]">Without FocusForge</span>
+                <p className="text-sm text-[var(--text-muted)] leading-relaxed">
+                  You mark a task done... or forget to. The app has no idea which.
+                </p>
+              </div>
+            </div>
+            <div className="p-4 rounded-xl bg-[var(--accent-primary)]/5 border border-[var(--accent-primary)]/10 md:bg-transparent md:border-none md:p-0 flex items-start gap-3">
+              <Check className="text-[var(--accent-primary)] shrink-0 mt-1" size={18} />
+              <div className="space-y-1">
+                <span className="block md:hidden text-xs font-bold uppercase tracking-wider text-[var(--accent-primary)]">With FocusForge</span>
+                <p className="text-sm text-[var(--text-primary)] font-medium leading-relaxed">
+                  Before judging you, it asks: "Did this really happen?"
+                </p>
+              </div>
+            </div>
+
+            {/* Row 2 */}
+            <div className="p-4 rounded-xl bg-red-500/5 border border-red-500/10 md:bg-transparent md:border-none md:p-0 flex items-start gap-3">
+              <X className="text-red-500 shrink-0 mt-1" size={18} />
+              <div className="space-y-1">
+                <span className="block md:hidden text-xs font-bold uppercase tracking-wider text-[var(--text-muted)]">Without FocusForge</span>
+                <p className="text-sm text-[var(--text-muted)] leading-relaxed">
+                  Miss your planned start time, and the rest of your day just sits there, wrong.
+                </p>
+              </div>
+            </div>
+            <div className="p-4 rounded-xl bg-[var(--accent-primary)]/5 border border-[var(--accent-primary)]/10 md:bg-transparent md:border-none md:p-0 flex items-start gap-3">
+              <Check className="text-[var(--accent-primary)] shrink-0 mt-1" size={18} />
+              <div className="space-y-1">
+                <span className="block md:hidden text-xs font-bold uppercase tracking-wider text-[var(--accent-primary)]">With FocusForge</span>
+                <p className="text-sm text-[var(--text-primary)] font-medium leading-relaxed">
+                  One missed block triggers Cascade Recovery — your whole day reflows automatically.
+                </p>
+              </div>
+            </div>
+
+            {/* Row 3 */}
+            <div className="p-4 rounded-xl bg-red-500/5 border border-red-500/10 md:bg-transparent md:border-none md:p-0 flex items-start gap-3">
+              <X className="text-red-500 shrink-0 mt-1" size={18} />
+              <div className="space-y-1">
+                <span className="block md:hidden text-xs font-bold uppercase tracking-wider text-[var(--text-muted)]">Without FocusForge</span>
+                <p className="text-sm text-[var(--text-muted)] leading-relaxed">
+                  Red alerts everywhere, with no real plan to fix anything.
+                </p>
+              </div>
+            </div>
+            <div className="p-4 rounded-xl bg-[var(--accent-primary)]/5 border border-[var(--accent-primary)]/10 md:bg-transparent md:border-none md:p-0 flex items-start gap-3">
+              <Check className="text-[var(--accent-primary)] shrink-0 mt-1" size={18} />
+              <div className="space-y-1">
+                <span className="block md:hidden text-xs font-bold uppercase tracking-wider text-[var(--accent-primary)]">With FocusForge</span>
+                <p className="text-sm text-[var(--text-primary)] font-medium leading-relaxed">
+                  Recovery Plan tries to save the deadline first. Only suggests an extension if the math genuinely doesn't work.
+                </p>
+              </div>
+            </div>
+
+            {/* Row 4 */}
+            <div className="p-4 rounded-xl bg-red-500/5 border border-red-500/10 md:bg-transparent md:border-none md:p-0 flex items-start gap-3">
+              <X className="text-red-500 shrink-0 mt-1" size={18} />
+              <div className="space-y-1">
+                <span className="block md:hidden text-xs font-bold uppercase tracking-wider text-[var(--text-muted)]">Without FocusForge</span>
+                <p className="text-sm text-[var(--text-muted)] leading-relaxed">
+                  Streaks break because you forgot to check a box — not because you actually failed.
+                </p>
+              </div>
+            </div>
+            <div className="p-4 rounded-xl bg-[var(--accent-primary)]/5 border border-[var(--accent-primary)]/10 md:bg-transparent md:border-none md:p-0 flex items-start gap-3">
+              <Check className="text-[var(--accent-primary)] shrink-0 mt-1" size={18} />
+              <div className="space-y-1">
+                <span className="block md:hidden text-xs font-bold uppercase tracking-wider text-[var(--accent-primary)]">With FocusForge</span>
+                <p className="text-sm text-[var(--text-primary)] font-medium leading-relaxed">
+                  Forgiveness Window protects your streak. Honesty matters more than perfect logging.
+                </p>
+              </div>
+            </div>
+
+            {/* Row 5 */}
+            <div className="p-4 rounded-xl bg-red-500/5 border border-red-500/10 md:bg-transparent md:border-none md:p-0 flex items-start gap-3">
+              <X className="text-red-500 shrink-0 mt-1" size={18} />
+              <div className="space-y-1">
+                <span className="block md:hidden text-xs font-bold uppercase tracking-wider text-[var(--text-muted)]">Without FocusForge</span>
+                <p className="text-sm text-[var(--text-muted)] leading-relaxed">
+                  Generic countdowns that don't know how you actually work.
+                </p>
+              </div>
+            </div>
+            <div className="p-4 rounded-xl bg-[var(--accent-primary)]/5 border border-[var(--accent-primary)]/10 md:bg-transparent md:border-none md:p-0 flex items-start gap-3">
+              <Check className="text-[var(--accent-primary)] shrink-0 mt-1" size={18} />
+              <div className="space-y-1">
+                <span className="block md:hidden text-xs font-bold uppercase tracking-wider text-[var(--accent-primary)]">With FocusForge</span>
+                <p className="text-sm text-[var(--text-primary)] font-medium leading-relaxed">
+                  Risk Score factors in your personal historical pace — not a one-size-fits-all timer.
+                </p>
+              </div>
+            </div>
+
+            {/* Row 6 */}
+            <div className="p-4 rounded-xl bg-red-500/5 border border-red-500/10 md:bg-transparent md:border-none md:p-0 flex items-start gap-3">
+              <X className="text-red-500 shrink-0 mt-1" size={18} />
+              <div className="space-y-1">
+                <span className="block md:hidden text-xs font-bold uppercase tracking-wider text-[var(--text-muted)]">Without FocusForge</span>
+                <p className="text-sm text-[var(--text-muted)] leading-relaxed">
+                  Team leaderboards rank you by how much you did.
+                </p>
+              </div>
+            </div>
+            <div className="p-4 rounded-xl bg-[var(--accent-primary)]/5 border border-[var(--accent-primary)]/10 md:bg-transparent md:border-none md:p-0 flex items-start gap-3">
+              <Check className="text-[var(--accent-primary)] shrink-0 mt-1" size={18} />
+              <div className="space-y-1">
+                <span className="block md:hidden text-xs font-bold uppercase tracking-wider text-[var(--accent-primary)]">With FocusForge</span>
+                <p className="text-sm text-[var(--text-primary)] font-medium leading-relaxed">
+                  Reliability Score ranks you by how well your word matched your output.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
