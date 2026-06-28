@@ -6,7 +6,7 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/679e7d52-4892-459d-bcc4-9033b541e139
+View your app in AI Studio: [Click Here](https://focusforge-ai-573123672173.asia-southeast1.run.app)
 
 ## Run Locally
 
