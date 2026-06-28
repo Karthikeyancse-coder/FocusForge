@@ -1,3 +1,5 @@
+# FocusForge AI — Reality Sync & Predictive Productivity
+
 <div align="center">
 <img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
 </div>
@@ -8,18 +10,17 @@
 
 <br/>
 
-<a href="https://focusforge-ai-573123672173.asia-southeast1.run.app">
+<a href="https://ais-pre-46ukfrdkg45euwwong2asx-480780234318.asia-southeast1.run.app">
   <img src="https://img.shields.io/badge/🚀_Live_Demo-1FA463?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo" />
 </a>
 <img src="https://img.shields.io/badge/Built_with-Gemini_API-1FA463?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Gemini" />
-<img src="https://img.shields.io/badge/Powered_by-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+<img src="https://img.shields.io/badge/Powered_by-React-61DAFB?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
 <img src="https://img.shields.io/badge/Database-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
 
 <br/><br/>
 
 <img src="https://img.shields.io/badge/status-hackathon%20build-1FA463?style=flat-square" alt="status" />
 <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="license" />
-<img src="https://img.shields.io/github/stars/your-username/focusforge-ai?style=flat-square&color=1FA463" alt="stars" />
 
 </div>
 
@@ -81,7 +82,7 @@ graph TD
 <br/><br/>
 
 <!-- 🎥 Replace with an actual screen recording GIF of the live demo before submission -->
-<img src="https://via.placeholder.com/900x500/0E0F11/1FA463?text=%E2%96%B6%EF%B8%8F+Demo+GIF+goes+here" width="80%" alt="Demo placeholder" />
+<img src="https://via.placeholder.com/900x500/0E0F11/1FA463?text=%E2%96%B6%EF%B8%8F+FocusForge+Interactive+Walkthrough" width="80%" alt="Demo placeholder" />
 
 </div>
 
@@ -91,13 +92,13 @@ graph TD
 
 <div align="center">
 
-![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=flat-square&logo=framer&logoColor=blue)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![Gemini](https://img.shields.io/badge/Gemini_API-1FA463?style=flat-square&logo=google-gemini&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-black?style=flat-square&logo=vercel&logoColor=white)
 
 </div>
 
@@ -107,7 +108,7 @@ graph TD
 
 This contains everything you need to run your app locally.
 
-**View your app in AI Studio:** [Click Here](https://focusforge-ai-573123672173.asia-southeast1.run.app)
+**View your app in AI Studio:** [Click Here](https://ais-pre-46ukfrdkg45euwwong2asx-480780234318.asia-southeast1.run.app)
 
 ### Run Locally
 
@@ -117,7 +118,7 @@ This contains everything you need to run your app locally.
    ```bash
    npm install
    ```
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+2. Set the `GEMINI_API_KEY` in `.env` to your Gemini API key
 3. Run the app:
    ```bash
    npm run dev
