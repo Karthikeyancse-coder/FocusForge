@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { motion } from "motion/react";
 import { Button } from "../components/ui/button";
 import { PublicThemeToggle } from "../components/PublicThemeToggle";
+import { FocusForgeLogo } from "../components/ui/FocusForgeLogo";
 import { ArrowLeft, Gamepad2, Sparkles } from "lucide-react";
 
 export default function Login() {
@@ -38,9 +39,7 @@ export default function Login() {
 
         <div className="max-w-sm w-full mx-auto">
           <div className="mb-10 text-center sm:text-left">
-            <div className="w-10 h-10 rounded-xl bg-[var(--accent-primary)] flex items-center justify-center shadow-[0_0_15px_var(--xp-glow)] mb-6 mx-auto sm:mx-0">
-              <span className="text-white font-bold font-display text-xl leading-none">F</span>
-            </div>
+            <FocusForgeLogo size={42} variant="gradient" className="shadow-[0_0_15px_rgba(31,164,99,0.35)] mb-6 mx-auto sm:mx-0 hover:scale-105 transition-transform duration-200" />
             <h1 className="text-3xl font-display font-bold tracking-tight mb-2">Enter the Forge</h1>
             <p className="text-[var(--text-muted)]">Your journey to legendary productivity starts here.</p>
           </div>

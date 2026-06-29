@@ -37,6 +37,7 @@ import { cn } from "@/src/lib/utils";
 import { motion, AnimatePresence } from "motion/react";
 import AICommandBubble from "../AICommandBubble";
 import { Button } from "../ui/button";
+import { FocusForgeLogo } from "../ui/FocusForgeLogo";
 
 const parseMessage = (msg: string) => {
   if (msg.includes(" — ")) {
@@ -581,9 +582,7 @@ export default function Layout() {
           className="flex items-center gap-3 mb-12 px-6 w-full hover:opacity-[0.95] hover:scale-[1.02] transition-all duration-200 cursor-pointer outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent-primary)] rounded-lg"
           aria-label="Go to Landing Page"
         >
-          <div className="w-8 h-8 shrink-0 rounded-lg bg-[var(--accent-primary)] flex items-center justify-center">
-            <span className="text-white font-bold font-display">F</span>
-          </div>
+          <FocusForgeLogo size={32} variant="gradient" className="shadow-[0_0_15px_rgba(31,164,99,0.3)]" />
           <h1 className="font-display font-bold text-xl tracking-tight">
             FocusForge
           </h1>

@@ -87,6 +87,57 @@ graph TD
 
 <br/>
 
+## ✨ Features
+
+### 🤖 AI & Intelligence
+* ⚡ **Reality Sync** — Reconcile plans against actual logged action
+* 🚨 **Risk Center** — Predictive deadline-miss risk calculation
+* 🛠️ **Recovery Missions** — AI auto-reflow and extension drafts
+* 🤖 **AI Command Center** — Natural language interface for quick actions
+* 💬 **AI Chat Assistant** — Interactive support & scheduling coach
+* 🎙️ **Voice Input (Speech-to-Text)** — Quick task & note dictation
+* 🔊 **AI Voice Responses (Text-to-Speech)** — Audio narration & coaching feedback
+
+### 📝 Task Management
+* 📝 **Smart Task Creation** — Quick, natural entries
+* ✏️ **Edit & Delete Tasks** — Effortless management
+* 📌 **Pin Tasks** — Pin critical quests to the dashboard
+* ✅ **Mark Complete** — Instantly record achievements
+* 📋 **Task Details Panel** — Rich metadata & checklist subtasks
+* 🎯 **Priority Management** — Critical / High / Medium / Low options
+
+### 📅 Calendar & Scheduling
+* 📅 **Calendar Integration** — Visual drag-and-drop planning
+* 🖱️ **Drag & Drop Scheduling** — Move and reschedule blocks with ease
+* 📆 **Multi-View Support** — Day / Week / Month / Year displays
+
+### 🍅 Focus & Execution
+* 🍅 **Pomodoro Focus Timer** — Immersive focused work cycles
+* ⏸️ **Pause & Resume** — Handles real-world interruptions smoothly
+* 🪟 **Floating Focus Timer** — Draggable widget visible across sections
+* 📌 **Edge-Docking Bubble** — Collapse to elegant, space-saving Messenger-style bubbles
+
+### 🎮 Progression & Social
+* 🎮 **XP & Progression** — Dynamic leveling based on focused execution
+* 👤 **Character Evolution** — Custom avatar profiles reflecting real-life progress
+* 🏆 **Leaderboard** — Compete on actual **Reliability Score**, not overworking
+
+### 📊 Insights & Analytics
+* 📊 **Productivity Dashboard** — Command center overview of current metrics
+* 📈 **Analytics & Insights** — Beautiful D3 charts tracking focus history & risk curves
+
+### 🎨 Platform & Polish
+* 🌞 **Light & 🌙 Dark Theme** — Eye-friendly themes for day/night coding
+* 🔐 **Authentication** — Secure login via email or Google providers
+* 📱 **Fully Responsive** — Perfect layouts on mobile, tablet, and desktop
+* 🎯 **Interactive Onboarding** — Walkthrough onboarding to welcome new users
+* 🔄 **Replay Product Tour** — Reset and re-run tutorials anytime
+* 🎨 **Premium Glassmorphism** — Gorgeous, high-contrast, modern layout aesthetics
+* ✨ **Animated RGB Effects** — Subtle visual accents celebrating high-achievement states
+* 🔔 **Smart Productivity Notifications** — Real-time alerts keeping you synchronized
+
+<br/>
+
 ## 🎬 See It In Action
 
 <div align="center">
